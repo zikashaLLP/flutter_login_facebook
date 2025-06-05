@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    namespace = 'com.roughike.flutter.facebooklogin'
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 16
